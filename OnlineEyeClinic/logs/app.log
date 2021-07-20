@@ -1,0 +1,35 @@
+2021-05-10 08:43:09,262 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-05-10 08:43:09,293 INFO com.cg.onlineeyeclinic.OnlineEyeClinicApplication [restartedMain] Starting OnlineEyeClinicApplication using Java 15.0.2 on LIN24003997 with PID 15256 (C:\Users\ARSAHU\Downloads\OnlineEyeClinic-master\OnlineEyeClinic-master\OnlineEyeClinic\bin\main started by arsahu in C:\Users\ARSAHU\Downloads\OnlineEyeClinic-master\OnlineEyeClinic-master\OnlineEyeClinic)
+2021-05-10 08:43:09,295 INFO com.cg.onlineeyeclinic.OnlineEyeClinicApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-05-10 08:43:09,427 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\ARSAHU\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\19.8.0.0\df9cff9b91c47d06b9a0482d566ee2d83a03e586\ojdbc8-19.8.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ARSAHU/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/19.8.0.0/df9cff9b91c47d06b9a0482d566ee2d83a03e586/oraclepki.jar
+2021-05-10 08:43:09,428 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-10 08:43:09,429 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-10 08:43:11,443 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-10 08:43:11,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 173 ms. Found 8 JPA repository interfaces.
+2021-05-10 08:43:13,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2021-05-10 08:43:13,138 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2021-05-10 08:43:13,138 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-05-10 08:43:13,138 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-10 08:43:13,268 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-10 08:43:13,268 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3837 ms
+2021-05-10 08:43:13,641 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-10 08:43:13,754 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-10 08:43:14,058 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-10 08:43:14,445 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPoolBooks - Starting...
+2021-05-10 08:43:15,370 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPoolBooks - Start completed.
+2021-05-10 08:43:15,425 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-05-10 08:45:36,171 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-10 08:45:36,217 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-10 08:45:36,367 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-05-10 08:45:38,995 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 08:45:40,422 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-10 08:45:41,626 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2021-05-10 08:45:41,688 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2021-05-10 08:45:43,692 INFO com.cg.onlineeyeclinic.OnlineEyeClinicApplication [restartedMain] Started OnlineEyeClinicApplication in 155.03 seconds (JVM running for 157.946)
+2021-05-10 08:46:08,683 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-10 08:46:08,683 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-10 08:46:08,685 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Completed initialization in 2 ms
+2021-05-10 08:46:10,582 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-5] Resolved [com.cg.onlineeyeclinic.exceptions.ReportNotFoundException: no report is available with the entered id]
+2021-05-10 09:03:50,581 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-5] Resolved [com.cg.onlineeyeclinic.exceptions.ReportNotFoundException: currently no report is available]
+2021-05-10 09:31:32,632 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-9] Resolved [com.cg.onlineeyeclinic.exceptions.ReportNotFoundException: currently no report is available]
+2021-05-10 09:31:48,533 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-2] Resolved [com.cg.onlineeyeclinic.exceptions.ReportNotFoundException: currently no report is available]
